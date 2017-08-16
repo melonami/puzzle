@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3305ACDE1F288C7E0091CA7C /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3305ACDD1F288C7E0091CA7C /* logo.jpg */; };
-		335F34BB1F2F38B0002ABE22 /* pintu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 335F34BA1F2F38B0002ABE22 /* pintu.jpg */; };
-		335F34BE1F2F38DF002ABE22 /* littlecircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 335F34BC1F2F38DF002ABE22 /* littlecircle.png */; };
-		335F34BF1F2F38DF002ABE22 /* littlecircle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 335F34BD1F2F38DF002ABE22 /* littlecircle2.png */; };
 		338205431F284603004EAD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338205421F284603004EAD10 /* main.m */; };
 		338205461F284603004EAD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338205451F284603004EAD10 /* AppDelegate.m */; };
 		338205491F284603004EAD10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338205481F284603004EAD10 /* ViewController.m */; };
@@ -21,6 +17,9 @@
 		3382055F1F284603004EAD10 /* sliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3382055E1F284603004EAD10 /* sliderTests.m */; };
 		3382056A1F284603004EAD10 /* sliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338205691F284603004EAD10 /* sliderUITests.m */; };
 		338205791F28471C004EAD10 /* sliderview.m in Sources */ = {isa = PBXBuildFile; fileRef = 338205781F28471C004EAD10 /* sliderview.m */; };
+		339C89B11F43F13D00EBCFFF /* littlecircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 339C89AF1F43F13D00EBCFFF /* littlecircle.png */; };
+		339C89B21F43F13D00EBCFFF /* littlecircle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 339C89B01F43F13D00EBCFFF /* littlecircle2.png */; };
+		339C89B41F43F15200EBCFFF /* pintu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 339C89B31F43F15200EBCFFF /* pintu.jpg */; };
 		33A0DEEE1F2B4242000A31FD /* TTGPuzzleVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0DEEB1F2B4242000A31FD /* TTGPuzzleVerifyView.m */; };
 		33A0DEEF1F2B4242000A31FD /* TTGPuzzleVerifyView+PatternPathProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0DEED1F2B4242000A31FD /* TTGPuzzleVerifyView+PatternPathProvider.m */; };
 /* End PBXBuildFile section */
@@ -43,10 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3305ACDD1F288C7E0091CA7C /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = "../../../../Downloads/book/ios-runtime/logo.jpg"; sourceTree = "<group>"; };
-		335F34BA1F2F38B0002ABE22 /* pintu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pintu.jpg; path = ../../../../Desktop/pintu.jpg; sourceTree = "<group>"; };
-		335F34BC1F2F38DF002ABE22 /* littlecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = littlecircle.png; path = ../../../../Desktop/littlecircle.png; sourceTree = "<group>"; };
-		335F34BD1F2F38DF002ABE22 /* littlecircle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = littlecircle2.png; path = ../../../../Desktop/littlecircle2.png; sourceTree = "<group>"; };
 		3382053E1F284603004EAD10 /* slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338205421F284603004EAD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		338205441F284603004EAD10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +61,9 @@
 		3382056B1F284603004EAD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338205771F28471C004EAD10 /* sliderview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sliderview.h; sourceTree = "<group>"; };
 		338205781F28471C004EAD10 /* sliderview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sliderview.m; sourceTree = "<group>"; };
+		339C89AF1F43F13D00EBCFFF /* littlecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = littlecircle.png; sourceTree = "<group>"; };
+		339C89B01F43F13D00EBCFFF /* littlecircle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = littlecircle2.png; sourceTree = "<group>"; };
+		339C89B31F43F15200EBCFFF /* pintu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pintu.jpg; sourceTree = "<group>"; };
 		33A0DEEA1F2B4242000A31FD /* TTGPuzzleVerifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGPuzzleVerifyView.h; sourceTree = "<group>"; };
 		33A0DEEB1F2B4242000A31FD /* TTGPuzzleVerifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGPuzzleVerifyView.m; sourceTree = "<group>"; };
 		33A0DEEC1F2B4242000A31FD /* TTGPuzzleVerifyView+PatternPathProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTGPuzzleVerifyView+PatternPathProvider.h"; sourceTree = "<group>"; };
@@ -132,10 +130,9 @@
 				338205781F28471C004EAD10 /* sliderview.m */,
 				3382054A1F284603004EAD10 /* Main.storyboard */,
 				338205501F284603004EAD10 /* Assets.xcassets */,
-				335F34BC1F2F38DF002ABE22 /* littlecircle.png */,
-				335F34BD1F2F38DF002ABE22 /* littlecircle2.png */,
-				335F34BA1F2F38B0002ABE22 /* pintu.jpg */,
-				3305ACDD1F288C7E0091CA7C /* logo.jpg */,
+				339C89AF1F43F13D00EBCFFF /* littlecircle.png */,
+				339C89B01F43F13D00EBCFFF /* littlecircle2.png */,
+				339C89B31F43F15200EBCFFF /* pintu.jpg */,
 				338205521F284603004EAD10 /* LaunchScreen.storyboard */,
 				338205551F284603004EAD10 /* Info.plist */,
 				3382054D1F284603004EAD10 /* slider.xcdatamodeld */,
@@ -279,11 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335F34BE1F2F38DF002ABE22 /* littlecircle.png in Resources */,
-				335F34BB1F2F38B0002ABE22 /* pintu.jpg in Resources */,
-				335F34BF1F2F38DF002ABE22 /* littlecircle2.png in Resources */,
+				339C89B11F43F13D00EBCFFF /* littlecircle.png in Resources */,
+				339C89B41F43F15200EBCFFF /* pintu.jpg in Resources */,
 				338205541F284603004EAD10 /* LaunchScreen.storyboard in Resources */,
 				338205511F284603004EAD10 /* Assets.xcassets in Resources */,
+				339C89B21F43F13D00EBCFFF /* littlecircle2.png in Resources */,
 				3382054C1F284603004EAD10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +296,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3305ACDE1F288C7E0091CA7C /* logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

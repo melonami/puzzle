@@ -152,13 +152,13 @@ static CGFloat kTTGPuzzleAnimationDuration = 1;
     _backImageView = [[UIImageView alloc] initWithFrame:rect];
     _backImageView.userInteractionEnabled = NO;
     _backImageView.contentMode = UIViewContentModeScaleToFill;
-//    _backImageView.backgroundColor = [UIColor clearColor];
-//    _backImageView.alpha = _puzzleBlankAlpha;
+    _backImageView.backgroundColor = [UIColor clearColor];
+    _backImageView.alpha = _puzzleBlankAlpha;
     [self addSubview:_backImageView];
     //查看border
-    _backImageView.backgroundColor = [UIColor redColor];
-    [_backImageView.layer setBorderColor:[UIColor purpleColor].CGColor];
-    [_backImageView.layer setBorderWidth:3.0];
+//    _backImageView.backgroundColor = [UIColor redColor];
+//    [_backImageView.layer setBorderColor:[UIColor purpleColor].CGColor];
+//    [_backImageView.layer setBorderWidth:3.0];
     
     // Front puzzle hole image view
     _frontImageView = [[UIImageView alloc] initWithFrame:rect];
@@ -166,16 +166,16 @@ static CGFloat kTTGPuzzleAnimationDuration = 1;
     _frontImageView.contentMode = UIViewContentModeScaleToFill;
     _frontImageView.backgroundColor = [UIColor clearColor];
     [self addSubview:_frontImageView];
-    [_frontImageView.layer setBorderColor:[UIColor greenColor].CGColor];
-    [_frontImageView.layer setBorderWidth:3.0];
+//    [_frontImageView.layer setBorderColor:[UIColor greenColor].CGColor];
+//    [_frontImageView.layer setBorderWidth:3.0];
     
     _puzzleContainerPositionSet = _puzzleContainerPosition;
     // Puzzle piece container view 指的是拼图
     _puzzleImageContainerView = [[UIView alloc] initWithFrame:CGRectMake(
             _puzzleContainerPosition.x, _puzzleContainerPosition.y,
             CGRectGetWidth(rect), CGRectGetHeight(rect))];
-    [_puzzleImageContainerView.layer setBorderColor:[UIColor redColor].CGColor];
-    [_puzzleImageContainerView.layer setBorderWidth:2.0];
+//    [_puzzleImageContainerView.layer setBorderColor:[UIColor redColor].CGColor];
+//    [_puzzleImageContainerView.layer setBorderWidth:2.0];
     
     NSLog(@"puzzle %f",_puzzleImageContainerView.frame.origin.x);
     
@@ -191,12 +191,12 @@ static CGFloat kTTGPuzzleAnimationDuration = 1;
     _puzzleImageView = [[UIImageView alloc] initWithFrame:_puzzleImageContainerView.bounds];
     _puzzleImageView.userInteractionEnabled = NO;
     _puzzleImageView.contentMode = UIViewContentModeScaleToFill;
-//    _puzzleImageView.backgroundColor = [UIColor clearColor];
+    _puzzleImageView.backgroundColor = [UIColor clearColor];
     //查看border
-    _puzzleImageView.backgroundColor = [UIColor whiteColor];
-    [_puzzleImageView.layer setBorderWidth:1.0];
-    [_puzzleImageView.layer setBorderColor:[UIColor grayColor].CGColor];
-    
+//    _puzzleImageView.backgroundColor = [UIColor whiteColor];
+//    [_puzzleImageView.layer setBorderWidth:1.0];
+//    [_puzzleImageView.layer setBorderColor:[UIColor grayColor].CGColor];
+//    
     
     [_puzzleImageContainerView addSubview:_puzzleImageView];
 
